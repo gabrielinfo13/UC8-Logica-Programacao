@@ -1,0 +1,9 @@
+Entenda como funciona:
+    Primeiro, defina a função WithinRange() que verifica se o argumento é um número e se
+está dentro do intervalo especificado pelas propriedades "lower" e "upper" de um objeto.
+    Em seguida, defina um array "names" de dados que contém números, strings e etc.
+    Então defina o objeto "selection" com duas propriedades lower e upper.
+    Depois disso, chame os métodos filter() do array data e passe a função WithinRange() e
+o objeto "selection". Como passamos o objeto "selection" dentro da função WithinRange() a
+palavra-chave this se refere ao objeto "selection".
+    Por fim, mostre a matriz de resultados na janela de console.
